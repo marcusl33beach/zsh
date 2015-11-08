@@ -1,0 +1,16 @@
+# Custom Aliases
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias l='ls -la'
+alias ll='ls -l'
+alias h='history'
+alias free='free -m'
+alias dh='df -h'
+alias vd="vagrant destroy -f"
+alias vu="vagrant up"
+alias vs="vagrant status"
+alias vdu="vagrant destroy -f && vagrant up"
+alias vssh="vagrant ssh"
+alias kc='kitchen converge'
+alias kd='kitchen destroy'
