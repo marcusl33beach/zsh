@@ -112,3 +112,5 @@ if [ -f /projects/ge_zsh/.ge_zsh_functions ]; then
   source "/projects/ge_zsh/.ge_zsh_functions"
 fi
 
+# Export chef path
+export PATH=/opt/chefdk/embedded/bin/:$PATH
