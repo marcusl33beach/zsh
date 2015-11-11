@@ -14,3 +14,6 @@ alias vdu="vagrant destroy -f && vagrant up"
 alias vssh="vagrant ssh"
 alias kc='kitchen converge'
 alias kd='kitchen destroy'
+alias kt='kitchen test'
+alias kv='kitchen verify'
+alias kl='kitchen login'
