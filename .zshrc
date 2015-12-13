@@ -114,3 +114,4 @@ fi
 
 # Export chef path
 export PATH=/opt/chefdk/embedded/bin/:$PATH
+export PATH=/Users/marcusbeach/.chefdk/gem/ruby/2.1.0/bin:$PATH
